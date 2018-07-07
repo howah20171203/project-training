@@ -9,6 +9,7 @@ public class BaseController {
   public string getList(){
     Map<String,Object> result = new HashMap<>();
     result.put("status", true);
+    result.put("state", false);
     return "";
   }
 
