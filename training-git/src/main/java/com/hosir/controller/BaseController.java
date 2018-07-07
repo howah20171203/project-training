@@ -5,6 +5,7 @@ package com.hosir.controller;
 public class BaseController {
 
   @RequestMapping("/list")
+  @ResponseBody
   public string getList(){
     Map<String,Object> result = new LinkedHashMap<>();
     return "";
