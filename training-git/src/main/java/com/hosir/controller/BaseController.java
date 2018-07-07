@@ -4,6 +4,7 @@ package com.hosir.controller;
 @RequestMapping("/base")
 public class BaseController {
 
+  @RequestMapping("/list")
   public string getList(){
     return "";
   }
