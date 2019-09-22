@@ -17,6 +17,8 @@ public class BaseController {
 	data.put("01002004","6");
 	data.put("01002005","5");
 	data.put("01002006","4");
+	data.put("01002007","7");
+	data.put("01002008","8");
 	result.put("data", data);
     return "";
   }
